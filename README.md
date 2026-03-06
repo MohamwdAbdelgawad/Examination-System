@@ -63,11 +63,6 @@ Stores a `CorrectAnswers[]` array. `CheckAnswers(Answer[])` sorts both arrays by
 - **I** — `ICloneable` and `IComparable` are minimal focused interfaces.
 - **D** — `Exam` depends on `Subject` abstraction; event system decouples notification.
 
-## How to Run
-
-```bash
-dotnet run --project ExamSystem/ExamSystem.csproj
-```
 
 Requires .NET 8 SDK.
 
@@ -93,9 +88,9 @@ Requires .NET 8 SDK.
 ╚══════════════════════════════╝
   Your choice: 1
 
-  📢 [Notification] Student 'Alice Johnson' (ID: 1) — Exam starting...
-  📢 [Notification] Student 'Bob Smith' (ID: 2) — Exam starting...
-  📢 [Notification] Student 'Carol White' (ID: 3) — Exam starting...
+   [Notification] Student 'Alice Johnson' (ID: 1) — Exam starting...
+   [Notification] Student 'Bob Smith' (ID: 2) — Exam starting...
+   [Notification] Student 'Carol White' (ID: 3) — Exam starting...
 
   Q1: The sky is blue.  [2 mark(s)] [True/False]
      [1] True
@@ -115,14 +110,3 @@ Requires .NET 8 SDK.
   ── Grade: 5 / 9 ──
 ```
 
-## Logged Question File (`practice_questions.log`)
-
-```
-[2025-01-01 10:00:00] [True/False] [Q1] The sky is blue. (2 marks)
-  Body    : The sky is blue.
-  Marks   : 2
-  Correct : [1] True
-------------------------------------------------------------
-[2025-01-01 10:00:00] [Choose One] [Q2] What is the capital of France? (3 marks)
-  ...
-```
