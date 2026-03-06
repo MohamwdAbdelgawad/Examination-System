@@ -1,0 +1,125 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="ExamSystem.Models.Answer" BaseTypeListCollapsed="true">
+    <Position X="16" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAAQEgAAAAAAAAAAAAIAAAAAACAAAAAA=</HashCode>
+      <FileName>Answer.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="ExamSystem.Models.AnswerList">
+    <Position X="17.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAACAAAAAQAAABAAAAAAAAAAAAAAIA=</HashCode>
+      <FileName>AnswerList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamSystem.Models.ChooseAllQuestion" Collapsed="true">
+    <Position X="7.75" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAACAQAAAAAAAAAAAAAIAAAAAAA=</HashCode>
+      <FileName>ChooseAllQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamSystem.Models.ChooseOneQuestion">
+    <Position X="10.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAACAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ChooseOneQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamSystem.Models.Exam" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgAAAAAAAKAAAAQUgoAAAAAAAAAgAIAGAAAgAAAAARo=</HashCode>
+      <FileName>Exam.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="ExamSystem.Models.FinalExam">
+    <Position X="11.25" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAACAAAAAAAAABA=</HashCode>
+      <FileName>FinalExam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamSystem.Models.PracticeExam">
+    <Position X="13.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAEAAAAAAAAAAAAAAACAAAAAAAAABA=</HashCode>
+      <FileName>PracticeExam.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamSystem.Models.Question">
+    <Position X="8" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>BAAAAAAAAAAAAAAEgAADAQAAAAAAAIBAQAQAAAAAAAA=</HashCode>
+      <FileName>Question.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamSystem.Models.Student">
+    <Position X="0.75" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAAAgAEgAAAAAQAAAAAAIAAAAAAAAAAAAA=</HashCode>
+      <FileName>Student.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamSystem.Models.Subject">
+    <Position X="2.5" Y="1.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAgAAAAAAAAAEEEAAAgQAAAABgAAAAAAAAAEAAAA=</HashCode>
+      <FileName>Subject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamSystem.Models.TrueFalseQuestion">
+    <Position X="5.5" Y="4.75" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAEAAACAQAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>TrueFalseQuestion.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamSystem.Events.ExamEventArgs">
+    <Position X="19.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAABAAAAAAAAAAAA=</HashCode>
+      <FileName>ExamEvents.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamSystem.Program">
+    <Position X="16.25" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamSystem.IO.QuestionList">
+    <Position X="18" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AgIAAAAAAAAAAAIACAAAAAQAAAQAAAAAAAAAAABAAAA=</HashCode>
+      <FileName>QuestionList.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="ExamSystem.Generics.Repository&lt;T&gt;">
+    <Position X="19.75" Y="4" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAAAAAAAAAAEAAQBAQAABAAAAAAAgCAAAEAAAA=</HashCode>
+      <FileName>Repository.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="ExamSystem.Enums.ExamMode">
+    <Position X="5.5" Y="1" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAQAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>ExamMode.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="ExamSystem.Events.ExamStartedHandler">
+    <Position X="12.75" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>ExamEvents.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
